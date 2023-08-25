@@ -1,0 +1,13 @@
+# Instalar "npx create-react-app@latest portfolio --template typescript" //Inicia o projeto com react.
+# Instalar "npx eslint --init" //Inicia o ESlint
+# Instalar "npm install --save-dev eslint-plugin-react-hooks" //Plugin do ESlint
+# Instalar "npm install --save-dev eslint-plugin-prettier eslint-config-prettier" //Segundo Plugin do ESlint com o Prettier
+# Instalar "npm i --save-dev --save-exact prettier" //Inicializando o Prettier
+
+# O resto das configurações estao nos arquivos de configuração de cada Plugin.
+
+# Caso for usar o Styled components
+
+# Instalar "npm i --save styled-components" //Inicializar o Styled
+
+# Instalar "npm i @types/styled-components" //Instalar esse so se estiver utilizando o TypeScript com o React.
