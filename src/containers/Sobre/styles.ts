@@ -6,5 +6,10 @@ export const GitStatus = styled.div`
 
   img {
     height: 190px;
+
+    @media(max-width: 767px) {
+      height: auto;
+      width: 100%
+    }
   }
 `

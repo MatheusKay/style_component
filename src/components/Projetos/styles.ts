@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Card = styled.div`
-  border: 1px solid #C1C1C1;
+  border: 1px solid ${(props) => props.theme.corDaBorda};
   padding: 16px;
 `
 export const LinkBotao = styled.a`
@@ -9,6 +9,6 @@ export const LinkBotao = styled.a`
   margin-top: 24px;
   padding: 8px;
   text-decoration: none;
-  color: #fff;
-  background-color: #4476bf;
+  color: ${(props) => props.theme.corDeFundo};
+  background-color: ${(props) => props.theme.corDeFundoBotao};
 `

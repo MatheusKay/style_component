@@ -10,8 +10,8 @@ export const BotaoTema = styled.button`
   padding: 8px;
   font-size: 10px;
   font-weight: bold;
-  color: #EEE;
-  background-color: #242a35;
+  color: ${(props) => props.theme.corDeFundo};
+  background-color: ${(props) => props.theme.corPrincipal};
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -21,4 +21,9 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+
+  @media(max-width: 767px) {
+    margin-bottom: 24px;
+    text-align: center;
+  }
 `
